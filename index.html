@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>trivia</title>
+</head>
+
+<body>
+    <div class="pantalla1">
+        <h1 class="bienvenida">¡Bienvenida al juego de Trivia!</h1>
+
+    <div class="botonEmpezar">
+        <a class="empezar" href="#temas">Empezar</a>
+    </div>
+    </div>
+
+    <div class="pantalla2">
+        <h1 id="temas">Elige un tema</h1>
+
+    <div>
+        <a href="#cultGral">CULTURA GENERAL DE MÉXICO</a>
+    </div>
+    <div>
+        <a href="#historia">HISTORIA DE MÉXICO</a>
+    </div>
+    </div>
+
+
+    <div class="pantalla3">
+        <h2 id="cultGral">¿Cuántos habitantes tiene México?</h2>
+
+        <input type="radio" name="valora" id="error">Menos de 100 millones de habitantes</br>
+        <input type="radio" name="valora" id="correcta">Entre 100 y 150 millones</br>
+        <input type="radio" name="valora" id="error">Más de 150 millones</br>
+
+        <h2>México es uno de los mayores países con mayor biodiversidad,
+            ¿qué ecosistema no està presente en el territorio Mèxicano?</h2>
+
+        <input type="radio" name="" id="">Bosque templado</br>
+        <input type="radio" name="" id="">Manglar</br>
+        <input type="radio" name="" id="">Tundra</br>
+
+        <h2>¿Cómo se lama el poeta y ensayista mexicano ganador del Nobel de Literatura en 1990?</h2>
+
+        <input type="radio" name="" id="">José Emilio Pacheco</br>
+        <input type="radio" name="" id="">Octavio Paz</br>
+        <input type="radio" name="" id="">Carlos fuentes</br>
+
+        <input class="btnCultura" type="submit" value="Enviar" onclick="enviar" ()>
+
+    </div>
+
+    <div class="pantalla4">
+    <h2 id="historia">Deidad del México Antiguo conocida como "La serpiente emplumada"</h2>
+
+    <input type="radio" name="" id="">Huitzilopochctli</br>
+    <input type="radio" name="" id="">Quetzacoatl</br>
+    <input type="radio" name="" id="">Tlaloc</br>
+
+    <h2>Cultura que se desarrolló en la Ciudad de Palenque</h2>
+
+    <input type="radio" name="" id="">Maya</br>
+    <input type="radio" name="" id="">Mexica</br>
+    <input type="radio" name="" id="">Olmeca</br>
+
+    <h2>Las cabezas colosales son creaciones de la cultura:</h2>
+
+    <input type="radio" name="" id="">Mexica</br>
+    <input type="radio" name="" id="">Mixteca</br>
+    <input type="radio" name="" id="">Olmeca</br>
+
+    <input class="btnHistoria" type="submit" value="Enviar" onclick="enviar" ()>
+
+    </div>
+
+    <div class="pantalla5">
+
+        <h1 id="resultados">Resultados</h1>
+        <a href="#temas">Volver a jugar</a>
+
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
